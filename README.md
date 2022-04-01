@@ -1,7 +1,7 @@
 # Travel-Journal
 A journey noting the places I have been
 
-##Learned
+## Learned
 .map()'s in React to seperate data from an external file, passing it to a functions taking in props, displaying the information for different cards. 
 
 ## Check it out!
