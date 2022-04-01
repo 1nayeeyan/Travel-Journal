@@ -1,0 +1,115 @@
+body {
+  background-color: #121212;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Poppins', 'Courier New',
+    monospace;
+}
+
+.content {
+  background-color: #121212;
+  height: 100vh;
+}
+
+header {
+  background-color: blanchedalmond;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img{
+  width: 2rem;
+  padding-right: 1rem;
+}
+
+header h1{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.container{
+  background-color: rgba(34, 34, 34, 0.2);
+  padding: 2%;
+  padding-top: 0px;
+  margin-top: 2rem;
+}
+
+.card {
+  color: white;
+  background-color: rgba(34, 34, 34, 0.9);
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-template-columns: 1fr 4fr;
+  padding: 2rem;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+.card-image {
+  width: 250px;
+  height: 336px;
+  object-fit: cover;
+  grid-area: 1 / 1 / 3 / 2;
+  border-radius: 5px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.destination-info{
+  grid-area: 1 / 2 / 2 / 3;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.map-marker{
+  width: 24px;
+  height: 24px;
+}
+
+.location{
+  padding-right: 1em;
+  height: fit-content;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.maps-link{
+  height: fit-content;
+}
+
+.title{
+  height: fit-content;
+  font-size: 3rem;
+}
+
+.description{
+  grid-area: 2 / 2 / 3 / 3;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.description-text {
+  width: 40vw;
+  font-weight: 200;
+}

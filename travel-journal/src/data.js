@@ -1,0 +1,32 @@
+export default [
+  {
+    id: 1,
+    title: 'Taj Mahal',
+    location: 'India',
+    googleMapsUrl: 'https://goo.gl/maps/dNhHbKdDX79cpcpN8',
+    startDate: '5 Dec, 2016',
+    endDate: '31 Dec, 2016',
+    description: 'The Taj Mahal was built by Shah Jahan, a Mughal emperor, in 1631 in memory of his wife Mumtaz who died earlier that year giving birth to her 14th child. The Taj Mahal is regarded by many as the best example of Mughal architecture left standing.',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg',
+  },
+  {
+    id: 2,
+    title: 'Victoria Falls',
+    location: 'Zambia',
+    googleMapsUrl: 'https://g.page/vicfalls?share',
+    startDate: '8 Dec, 2019',
+    endDate: '3 Jan, 2019',
+    description: 'Aptly named the largest waterfall in the world, this collosal giant seperates it\'s neighbouring countries, Zambia and Zimbabwe. It is home to a plethora of animals and plants, making it truly a sight to behold.',
+    imageUrl: 'https://www.nationsonline.org/gallery/africa/Victoria-Falls-with-rainbow.jpg',
+  },
+  {
+    id: 3,
+    title: 'Big Ben',
+    location: 'England',
+    googleMapsUrl: 'https://goo.gl/maps/3S7d8hTQCd7L86d5A',
+    startDate: '14 Dec, 2009',
+    endDate: '2 Jan, 2009',
+    description: 'Big Ben is a British cultural icon recognised all over the world. It is one of the most prominent symbols of the U.K as a whole. Cool tower really. I mean it\'s alright I guess.',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Clock_Tower_-_Palace_of_Westminster%2C_London_-_May_2007.jpg/240px-Clock_Tower_-_Palace_of_Westminster%2C_London_-_May_2007.jpg',
+  },
+];
