@@ -1,5 +1,5 @@
 # Travel-Journal
-A journey noting the places I have been
+A journal noting the places I have been
 
 ## Learned
     - .map()'s in React to seperate data from an external file
